@@ -18,8 +18,7 @@ function setPhoto(i) {
   } else {
     zoomPhoto.classList.remove("modal-work-is-last-slide");
   }
-
-  fullPhoto.src = photoWork[i].src;
+  fullPhoto.src = photoWork[activeSlideIndex].src;
 }
 
 const slidesCount = photoLink.length;
