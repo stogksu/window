@@ -1,0 +1,3 @@
+initProductsNavigation();
+initCallBlock();
+setPhoto();
